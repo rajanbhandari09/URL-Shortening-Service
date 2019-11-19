@@ -8,8 +8,14 @@ Example: http://localhost:8090/urlshortsvc/rest/shortenurl/?url=www.intuit.com
 ### Redirect to long url: /urlshortsvc/rest/{shortId}
 Example: http://localhost:8090/urlshortsvc/rest/b
 
-## Project Root Directory
+## Instructions For Running
+### Project Root Directory
 * urlshortsvc
+
+### Create below text file
+* id_url_file.txt
+* Update path for text file in java class -
+  urlshortsvc/src/main/java/com/urlshorteningservice/bo/FileHandler.java
 
 ## Maven Dependencies:
 * Jersey: 2.27
